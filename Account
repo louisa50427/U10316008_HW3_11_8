@@ -18,7 +18,7 @@ public class Account{
 	Account(){
 		dateCreated = new java.util.Date();
 	}
-	//A constructor that create specified id and initial balance
+	//A constructor that create specified id and initial balance and name
 	Account(int newId,double newBalance,String newName){
 		id = newId;
 		balance = newBalance;
