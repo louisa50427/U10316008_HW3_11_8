@@ -29,6 +29,9 @@ public class Account{
 	public void setId(int newId){
 		id = newId;
 	}
+	public void setName(String newName){
+		name = newName;
+	}
 	public void setBalance(double newBalance){
 		balance = newBalance;
 	}
@@ -37,6 +40,9 @@ public class Account{
 	}
 	public int getId(){
 		return id;
+	}
+	public String getName(){
+		return name;
 	}
 	public double getBalance(){
 		return balance;
@@ -60,7 +66,7 @@ public class Account{
 		return getBalance()*getAnnualInterestRate()/12.0/100;
 	}
 	public String toString(){
-		return "\nThe balance is " + (int)getBalance() + "\nMonthly interest is " + getMonthlyInterestRate()  + "\nThe date you create this account is  " + dateCreated;
+		return "Your ID is " + getId() +  "\nYour name is " + getName() + "\nThe balance is " + (int)getBalance() + "\nMonthly interest is " + getMonthlyInterestRate()  + "\nThe date you create this account is  " + dateCreated;
 	}
 	
 }
