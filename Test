@@ -6,7 +6,6 @@ public class Test{
 		
 		
 		System.out.println();
-		System.out.println("Type	Amount	  Balance");
 		
 		account.deposit(30);
 		account.deposit(40);
