@@ -14,6 +14,7 @@ public class Transaction{
 		amount = newAmount;
 		balance = newBalance;
 		description = newDescription;
+		dateCreated = new java.util.Date();
 	}
 	void setType(char newType){
 		type = newType;
