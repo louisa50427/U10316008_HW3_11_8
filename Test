@@ -1,5 +1,7 @@
 public class Test{
+	//main method
 	public static void main(String[] args){
+		//an object for Account 
 		Account account = new Account(1122,1000,"George");
 		account.setAnnualInterestRate(1.5);
 		
