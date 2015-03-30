@@ -1,14 +1,18 @@
 public class Transaction{
+
+	// Declare five data fields
 	private java.util.Date dateCreated;
 	private char type;
 	private double amount;
 	private double balance;
 	private String description;
 	
+	//A no-arg constructor
+	
 	Transaction(){
 		dateCreated = new java.util.Date();
 	}
-	
+	//constructor
 	Transaction(char newType,double newAmount,double newBalance,String newDescription){
 		type = newType;
 		amount = newAmount;
@@ -16,6 +20,8 @@ public class Transaction{
 		description = newDescription;
 		dateCreated = new java.util.Date();
 	}
+	
+	//setting and geting
 	void setType(char newType){
 		type = newType;
 	}
